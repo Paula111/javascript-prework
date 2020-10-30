@@ -39,8 +39,7 @@ let randomNumber = Math.floor(Math.random() * 3 + 1);
 
 let computerMove = getMoveName(randomNumber); 
 
-displayResult(playerMove, computerMove); 
-
+let getResult =  displayResult(playerMove, computerMove); 
 } 
 
 let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput; 
