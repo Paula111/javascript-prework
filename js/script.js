@@ -33,34 +33,22 @@ const displayResult = function (argPlayerMove, argComputerMove) {
     printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove); 
 } 
 
-playerMove = argButtonName; 
+const playerMove = argButtonName; 
 
 randomNumber = Math.floor(Math.random() * 3 + 1); 
 
 computerMove = getMoveName(randomNumber); 
 
-  
-
 displayResult(playerMove, computerMove); 
 
 } 
 
-  
-
-var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput; 
+let argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput; 
 
   
-
-  
-
 buttonRock = document.getElementById('button-rock'); 
-
 buttonPaper = document.getElementById('button-paper'); 
-
 buttonScissors = document.getElementById('button-scissors'); 
-
 buttonRock.addEventListener('click', function(){ buttonClicked('kamień');}); 
-
 buttonPaper.addEventListener('click', function(){ buttonClicked('papier');}); 
-
 buttonScissors.addEventListener('click', function(){ buttonClicked('nożyce');}); 
