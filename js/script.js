@@ -35,7 +35,7 @@ const displayResult = function (argPlayerMove, argComputerMove) {
 
 const playerMove = argButtonName; 
 
-randomNumber = Math.floor(Math.random() * 3 + 1); 
+let randomNumber = Math.floor(Math.random() * 3 + 1); 
 
 computerMove = getMoveName(randomNumber); 
 
